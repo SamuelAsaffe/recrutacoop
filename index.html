@@ -1,104 +1,175 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Recruta Coop</title>
-  <!-- Importando arquivos css -->
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <!-- Importando arquivos js -->
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/scrypt.js"></script>
-</head>
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #ffd359!important;">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="img/recrutacooplogomenu.png" alt="" width="160"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Painéis
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Painel usuário</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Painél cooperativa</a></li>
-            
-            
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Perfil
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Visualizar foto de perfil</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Perfil</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">alguma coisa</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Página inicial" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-      </form>
-    </div>
-  </div>
-</nav>
-  </header>
-
-  <main>
-    <div class="container">
-      <div class="row mt-3" id="sobreNos">
-        <div class="col-md-6 col-sm-12 p-3" style="font-size: ;">
-          <h1 style="font-size: ;"><b>Sobre nós </b></h1>
-
-          <h5> <b>O RecrutaCoop é uma ferramenta de alta performance com foco no desenvolvimento humano e na captação de profissionais. Por meio de soluções inovadoras contribuímos para que, tanto empresas quanto profissionais, potencializem desempenho e competências em linha com a estratégia e cultura cooperativista.</b> </h5>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recruta Coop</title>
+    <!-- Importando arquivos css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Importando arquivos js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/scrypt.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary"
+        style="background-color: #ffd359 !important"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="img/recrutacooplogomenu.png" alt="" width="160"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Painéis
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Painel usuário</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Painél cooperativa</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Perfil
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Visualizar foto de perfil</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Perfil</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true"
+                  >alguma coisa</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Página inicial"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Pesquisar
+              </button>
+            </form>
+          </div>
         </div>
-        <div class="col-md-6 col-sm-12">
-          <div style="border-radius: 10%;"><img src="img/mulherSobreNos.png" alt=""   style="max-width: 90%; min-width: none;border-radius: 30px;"></div>
-          
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="row mt-3" id="sobreNos">
+          <div class="col-md-6 col-sm-12 p-3" style="font-size: ">
+            <h1 style="font-size: "><b>Sobre nós </b></h1>
+
+            <h5>
+              <b
+                >O RecrutaCoop é uma ferramenta de alta performance com foco no
+                desenvolvimento humano e na captação de profissionais. Por meio
+                de soluções inovadoras contribuímos para que, tanto empresas
+                quanto profissionais, potencializem desempenho e competências em
+                linha com a estratégia e cultura cooperativista.</b
+              >
+            </h5>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div style="border-radius: 10%">
+              <img
+                src="img/mulherSobreNos.png"
+                alt=""
+                style="max-width: 90%; min-width: none; border-radius: 30px"
+              />
+            </div>
+          </div>
         </div>
 
+        <div class="row mt-3" id="oqueeCooperativismo">
+          <div class="col-md-6 col-sm-12">
+            <div style="border-radius: 10%">
+              <img
+                src="img/imgCooperativismo.webp"
+                alt=""
+                style="max-width: 90%; min-width: none; border-radius: 30px"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 p-3">
+            <h1 style="font-size: ">
+              <b>
+                Oque é <br />
+                Cooperativismos</b
+              >
+            </h1>
+
+            <h5>
+              <b
+                >Cooperativismo é um modelo de organização baseado nos
+                princípios de ajuda mútua e igualitária colaboração entre seus
+                membros. Nesse sistema, as pessoas se unem voluntariamente para
+                compartilhar recursos, conhecimentos e esforços para alcançar
+                objetivos comuns e atender às necessidades do grupo</b
+              >
+            </h5>
+          </div>
+        </div>
       </div>
-
-      <div class="row mt-3" id="oqueeCooperativismo">
-        
-        <div class="col-md-6 col-sm-12">
-          <div style="border-radius: 10%;"><img src="img/imgCooperativismo.webp" alt=""   style="max-width: 90%; min-width: none;border-radius: 30px;"></div>
-          
+    </main>
+    <footer style="background-color: #ffd359">
+      <div class="row">
+        <div class="col-12" style="text-align: center; align-items: center">
+          <div class="row">
+            <p class="col-md-4 col-sm-12">
+              Cursos:
+              <a
+                href="https://www.goiascooperativo.coop.br/"
+                style="text-decoration: none"
+                >Capacitacoop</a
+              >
+            </p>
+            <button class="btn col-md-4 col-sm-12">Empresas Parceiras</button>
+            <a href="" style="text-decoration: none">Contatos</a>
+          </div>
         </div>
-        <div class="col-md-6 col-sm-12 p-3">
-          <h1 style="font-size: ;"><b> Oque é <br> Cooperativismos</b></h1>
-          
-
-          <h5><b>Cooperativismo é um modelo de organização baseado nos princípios de ajuda mútua e igualitária colaboração entre seus membros. Nesse sistema, as pessoas se unem voluntariamente para compartilhar recursos, conhecimentos e esforços para alcançar objetivos comuns e atender às necessidades do grupo</b></h5>
-
-        </div>
-
+        <div></div>
       </div>
-      
-    </div>
-
-
-
-
-  </main>
-
-
-
-
-
-</body>
+    </footer>
+  </body>
 </html>
