@@ -1,0 +1,25 @@
+#subirbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #ffd359;
+    text-decoration: none;
+    box-shadow: 1px 1px 15px #9c6a2b;
+}
+
+#subirbtn::after {
+    content: "↑";
+    font-size: 32px;
+    font-weight: bold;
+    color: #6d3c00;
+    transition: margin-top 250ms;
+}
+
+#subirbtn:hover::after {
+    margin-top: -8px;
+}
