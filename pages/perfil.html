@@ -17,7 +17,7 @@
   <header>
     <nav class="navbar navbar-expand-md " style="background-color: #ffd359 !important">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="../img/recrutacooplogomenu.png" alt="" width="160" /></a>
+        <a class="navbar-brand" href="../index.html"><img src="../img/recrutacooplogomenu.png" alt="" width="160" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -71,24 +71,32 @@
   </header>
 
   <main>
-    <div class="container-fluid" style="margin: 7px;">
+    <div class="container-fluid" style="margin: 7px 0;">
 
-      <div style="border-color: #ffd359;border-radius: 8px 8px 8px 8px ; background: #FF9A59;">
+      <div style="border-color: #ffd359; border-radius: 8px 8px 8px 8px ; background: #FF9A59;">
         <p style="text-align: center;">Perfil 57% completado</p>
       </div>
 
       <div class="row">
-        <div class="perfilParte1 col-md-4 col-sm-12">
-          <div id="perfilimagem" class="">
-            <img class="" src="../img/fotoSamuel.jpg" alt=""
-              style="max-width: 30%;border-radius: 40px 40px 40px 40px ;">
-            <p class="text-center">Editar foto</p>
+        <section id="perfilParte1" class=" col-md-4 col-sm-12 col-12">
+          <div id="perfilimagem" class="col-md-5 col-sm-5 col-5">
+            <img class="col-12" src="../img/fotoSamuel.jpg" alt=""
+              style="max-width: 30%; min-width: 120px; ;border-radius: 40px 40px 40px 40px ;">
+            <button class="btn bg-warning col-12">Editar foto</button>
           </div>
 
-          <div>
+          <div id="perfilSocial" class="col-md-7 col-sm-7 col-7">
+            <div class="row" style="margin-right: 0!important;margin-left: 0!important;">
+              <div class="col-12">
+
+                <input class="form-control  col-9" type="text" placeholder="Seu nome">
+                <button class="btn bg-warning col-3 ">Editar</button>
+              </div>
+              <div></div>
+            </div>
 
           </div>
-        </div>
+        </section>
 
       </div>
 
@@ -120,7 +128,7 @@
 
 
   <footer style="background-color: #ffd359; margin: 5px 0; padding: 5px 0;">
-    <div class="row">
+    <div class="row" style="margin-right: 0!important;margin-left: 0!important;">
       <!-- parte de cima -->
       <div class="col-md-12 col-sm-6" style="text-align: center; align-items: center">
         <div class="row">

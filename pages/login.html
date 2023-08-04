@@ -20,29 +20,12 @@
             </div>
         </nav>
     </header>
-    <main>
-        <div class="row text-center my-5">
-            <div class="col-12 text-center my-2">
+    <main class=" align-items-center">
+        <div class="row text-center mx-5 my-5">
+            <div class="col-12 text-center my-2 ">
                 <h2>fazer login como:</h2>
                 <button class="btn login-cooperativa" type="button" data-bs-toggle="modal"
                     data-bs-target="#logincoopmodal">cooperativa</button>
-            </div>
-            <div class="modal fade" id="logincoopmodal" tabindex="-1" aria-labelledby="logincoopmodalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h3 class="modal-title" id="logincoopmodalLabel">entrar</h3>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">a
-
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">voltar</button>
-                        </div>
-                    </div>
-                </div>
             </div>
             <div class="col-12">
                 <button class="btn login-usuario" type="button" data-bs-toggle="modal"
@@ -50,7 +33,27 @@
             </div>
         </div>
     </main>
-
+    <modais>
+        <div class="modal fade" id="logincoopmodal" tabindex="-1" aria-labelledby="logincoopmodalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen-lg-down">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="logincoopmodalLabel">entrar</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center ">a
+                        <form action="">
+                            <input type="email">
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">voltar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </modais>
 </body>
 
 </html>
