@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
-
+    <link rel="stylesheet" href="../css/style.css">
     <script src="../js/bootstrap.bundle.min.js"></script>
 
 </head>
@@ -16,10 +16,35 @@
         <nav class="navbar" style="background-color: #ffd359 !important">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html"><img src="../img/recrutacooplogomenu.png" alt=""
-                        width="160" /></a>
+                        width="160"></a>
             </div>
         </nav>
     </header>
+    <main>
+        <div class="row text-center my-5">
+            <div class="col-12 text-center my-2">
+                <h2>fazer login como:</h2>
+                <button class="btn login-cooperativa" type="button" data-bs-toggle="modal"
+                    data-bs-target="#logincoopmodal">cooperativa</button>
+            </div>
+            <div class="modal fade" id="logincoopmodal" tabindex="-1" aria-labelledby="logincoopmodalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title" id="logincoopmodalLabel"></h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">a</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <button class="btn login-usuario" type="button" data-bs-toggle="modal"
+                    data-bs-target="#loginusuario">usuário</button>
+            </div>
+        </div>
+    </main>
 
 </body>
 
