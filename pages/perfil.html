@@ -15,7 +15,7 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-md " style="background-color: #ffd359 !important">
+    <nav class="navbar navbar-expand-md " style="background-color: #ffd359 !important; border-radius: 0 0 19px 19px;">
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html"><img src="../img/recrutacooplogomenu.png" alt="" width="160" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -38,7 +38,7 @@
 
               </a>
               <ul class="dropdown-menu" style="background-color: #ffd359 !important; ">
-                <li><a class="dropdown-item" href="#">Painel usuário</a></li>
+                <li><a class="dropdown-item" href="/pages/painelUsuario.html">Painel usuário</a></li>
                 <li>
                   <hr class="dropdown-divider" style="  " />
                 </li>
@@ -59,7 +59,11 @@
                 <li>
                   <hr class="dropdown-divider" />
                 </li>
-                <li><a class="dropdown-item" href="#">Perfil</a></li>
+                <li><a class="dropdown-item" href="/pages/perfil.html">Perfil</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="/pages/login.html">Sair</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -79,9 +83,9 @@
   </header>
 
   <main>
-    <div class="container-fluid" style="margin: 7px 0;">
+    <div class="container-fluid" style="margin: 7px 0; padding: 0 -5px 0 0 ">
 
-      <div style="border-color: #ffd359; border-radius: 8px 8px 8px 8px ; background: #FF9A59;">
+      <div class="container-fluid" style="border-color: #ffd359; border-radius: 8px 8px 8px 8px ; background: #FF9A59;">
         <p style="text-align: center;">Perfil 57% completado</p>
       </div>
 
@@ -160,11 +164,11 @@
           </div>
         </section>
 
-        <section id="perfilParte2" class=" col-md-7 col-sm-12 col-12 col-lg-6">
-          <div class="row">
+        <section id="perfilParte2" class=" col-md-7 col-sm-12 col-12 col-lg-6 ">
+          <div class="row pe-2 ps-2">
             <div id="cpf-cnpj">
               <div class="row">
-                <div id="campoCPF" class="col-12 col-sm-12 col-md-6 col-lg-6 pt-2">
+                <div id="campoCPF" class="col-12 col-sm-12 col-md-6 col-lg-6 pt-2" style="">
                   <div class="row ">
                     <div class="col-9">
                       <input class="form-control" type="text" placeholder="CPF">
@@ -179,7 +183,7 @@
                   </div>
                 </div>
 
-                <div id="campoCNPJ" class="col-12 col-sm-12 col-md-6 col-lg-6 pt-2">
+                <div id="campoCNPJ" class="col-12 col-sm-12 col-md-6 col-lg-6 pt-2" style="">
                   <div class="row ">
                     <div class="col-9">
                       <input class="form-control" type="text" placeholder="CNPJ">
@@ -261,7 +265,7 @@
 
 
 
-  <footer style="background-color: #ffd359; margin: 5px 0; padding: 5px 0;">
+  <footer style="background-color: #ffd359; margin: 5px 0; padding: 5px 0;border-radius: 19px 19px 0 0 ;">
     <div class="row" style="margin-right: 0!important;margin-left: 0!important;">
       <!-- parte de cima -->
       <div class="col-md-12 col-sm-6" style="text-align: center; align-items: center">
@@ -290,3 +294,5 @@
   <!-- seta subir -->
   <a id="subirbtn" class="btn" href="#"></a>
 </body>
+
+</html>
