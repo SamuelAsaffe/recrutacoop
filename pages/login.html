@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header style="border-radius: 0 0 19px 19px!important;">
+    <header style="border-radius: 0 0 19px 19px!important; background: #f1dc8d;">
         <nav class="navbar" style="background-color: #ffd359 !important; border-radius: 0 0 19px 19px!important;">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html"><img src="../img/recrutacooplogomenu.png" alt=""
@@ -20,14 +20,16 @@
             </div>
         </nav>
     </header>
-    <main class=" align-items-center">
+    <main class=" align-items-center" style="background: #f1dc8d; border-radius: 19px 19px 19px 19px!important;">
         <div class="row text-center mx-5 my-5">
             <div class="col-12 text-center my-2 ">
-                <h2>fazer login como:</h2>
+                <h2> O melhor lugar para sua
+                    carreira profissional no cooperativismo</h2>
+                <h2>Fazer login como:</h2>
                 <button class="btn bg-warning login-cooperativa" type="button" data-bs-toggle="modal"
                     data-bs-target="#logincoopmodal">cooperativa</button>
             </div>
-            <div class="col-12">
+            <div class="col-12 mb-3">
                 <button class="btn bg-warning login-usuario" type="button" data-bs-toggle="modal"
                     data-bs-target="#loginusuario">usuário</button>
             </div>
@@ -36,24 +38,31 @@
     <modais>
         <div class="modal fade" id="logincoopmodal" tabindex="-1" aria-labelledby="logincoopmodalLabel"
             aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen-lg-down">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h3 class="modal-title" id="logincoopmodalLabel">entrar</h3>
+            <div class="modal-dialog modal-fullscreen-down">
+                <div class="modal-content" style="background: #f1dc8d">
+                    <div class="modal-header bg-warning" style=" border-radius: 0 0 19px 19px ;">
+                        <h3 class="modal-title" id="logincoopmodalLabel">Entrar</h3>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body text-center container ">
-                        <form action="" style=" " class="d-flex justify-content-center align-items-center">
+                    <div class="modal-body text-center container " style="background: #f1dc8d">
+                        <form action="" style=" padding: 8px 0 0 0; "
+                            class=" d-flex justify-content-center align-items-center">
                             <input type="email" placeholder="email" class="form-control  "
-                                style="max-width: 50%; text-align: center;align-items: center;">
+                                style="max-width: 65%; text-align: center;align-items: center;">
+                        </form>
+                        <form action="" style=" padding: 8px 0 0 0; "
+                            class="d-flex justify-content-center align-items-center">
+                            <input type="password" placeholder="senha" class="form-control  "
+                                style="max-width: 65%; text-align: center;align-items: center;">
                         </form>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">voltar</button>
+                    <div class="modal-footer bg-warning" style=" border-radius: 19px 19px 0 0 ;"">
+                        <button type=" button" class="btn btn-danger" data-bs-dismiss="modal">voltar</button>
                     </div>
                 </div>
             </div>
         </div>
+
     </modais>
 
     <footer style="background-color: #ffd359; margin: 5px 0; padding: 5px 0;border-radius: 19px 19px 0 0;">

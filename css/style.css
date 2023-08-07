@@ -27,33 +27,35 @@
 .login-cooperativa {
     --bs-btn-color: #fff;
     --bs-btn-bg: #0d6efd;
-    --bs-btn-border-color: #c59403;
+    --bs-btn-border-color: #FFD22C;
+    --bs-btn-border-width: 3px;
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: #0b5ed7;
-    --bs-btn-hover-border-color: #c59403;
+    --bs-btn-hover-border-color: #FFD22C;
     --bs-btn-focus-shadow-rgb: 49,132,253;
     --bs-btn-active-color: #fff;
     --bs-btn-active-bg: #0a4db1;
-    --bs-btn-active-border-color: #c59403;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-active-border-color: #FFD22C;
+    --bs-btn-active-shadow: inset 0 5px 8px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: #0d6efd;
-    --bs-btn-disabled-border-color: #c59403;
+    --bs-btn-disabled-border-color: ##FFD22C;
 }
 
 .login-usuario {
     --bs-btn-color: #fff;
     --bs-btn-bg: #0d6efd;
-    --bs-btn-border-color: #c59403;
+    --bs-btn-border-color: #FFD22C;
+    --bs-btn-border-width: 3px;
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: #0b5ed7;
-    --bs-btn-hover-border-color: #c59403;
+    --bs-btn-hover-border-color: #FFD22C;
     --bs-btn-focus-shadow-rgb: 49,132,253;
     --bs-btn-active-color: #fff;
     --bs-btn-active-bg: #0a58ca;
-    --bs-btn-active-border-color: #c59403;
+    --bs-btn-active-border-color: #FFD22C;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: #0d6efd;
-    --bs-btn-disabled-border-color: #c59403;
+    --bs-btn-disabled-border-color: #FFD22C;
 }
