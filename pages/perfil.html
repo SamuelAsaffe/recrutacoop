@@ -55,7 +55,8 @@
               </a>
               <ul class="dropdown-menu" style="background-color: #ffd359 !important;">
                 <li>
-                  <a class=" dropdown-item" href="#">Visualizar foto de perfil</a>
+                  <a class=" dropdown-item" href="#" data-bs-toggle="modal"
+                    data-bs-target="#visualizarfotoperfil">Visualizar foto de perfil</a>
                 </li>
                 <li>
                   <hr class="dropdown-divider" />
@@ -64,7 +65,7 @@
                 <li>
                   <hr class="dropdown-divider" />
                 </li>
-                <li><a class="dropdown-item" href="/login.html">Sair</a></li>
+                <li><a class="dropdown-item" href="login.html">Sair</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -264,6 +265,27 @@
     </div>
   </main>
 
+
+  <modais>
+    <div class="modal fade" id="visualizarfotoperfil" tabindex="-1" aria-labelledby="visualizarfotoperfilLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-fullscreen-down">
+        <div class="modal-content" style="background: #f1dc8d">
+          <div class="modal-header bg-warning" style=" border-radius: 19px 19px 19px 19px ;">
+            <h3 class="modal-title" id="logincoopmodalLabel">Foto de Perfil</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center container " style="background: #f1dc8d">
+            <img src="/img/fotoSamuel.jpg" alt="" style="max-width: 300px; border-radius: 10px;">
+          </div>
+          <div class="modal-footer bg-warning" style=" border-radius: 19px 19px 17px 17px ;"">
+            <!-- <button type=" button" class="btn btn-danger" data-bs-dismiss="modal">sair</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </modais>
 
 
   <footer style="background-color: #ffd359; margin: 5px 0; padding: 5px 0;border-radius: 19px 19px 0 0 ;">
