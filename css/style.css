@@ -59,3 +59,9 @@
     --bs-btn-disabled-bg: #0d6efd;
     --bs-btn-disabled-border-color: #FFD22C;
 }
+
+.tiralink {
+    text-decoration: none;
+    list-style: none;
+    color:#fff;
+}
