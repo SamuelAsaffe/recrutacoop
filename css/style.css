@@ -32,7 +32,7 @@
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: #0b5ed7;
     --bs-btn-hover-border-color: #FFD22C;
-    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
     --bs-btn-active-color: #fff;
     --bs-btn-active-bg: #0a4db1;
     --bs-btn-active-border-color: #FFD22C;
@@ -50,7 +50,7 @@
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: #0b5ed7;
     --bs-btn-hover-border-color: #FFD22C;
-    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
     --bs-btn-active-color: #fff;
     --bs-btn-active-bg: #0a58ca;
     --bs-btn-active-border-color: #FFD22C;
@@ -63,5 +63,5 @@
 .tiralink {
     text-decoration: none;
     list-style: none;
-    color:#fff;
+    color: #fff;
 }
